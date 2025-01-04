@@ -1,0 +1,791 @@
+# **1. Fichiers généraux de configuration**
+.env
+config
+config.cfg
+config.ini
+settings.conf
+settings.ini
+application.yml
+application.yaml
+application.properties
+local.settings.json
+credentials.json
+secret.json
+secrets.yml
+secrets.json
+.secrets
+.credentials
+
+# **2. Fichiers liés à Git et au versionnement**
+.gitconfig
+.git-credentials
+.gitignore
+.gitlab-ci.yml
+.travis.yml
+bitbucket-pipelines.yml
+
+# **3. Fichiers spécifiques à des frameworks ou technologies**
+# WordPress
+wp-config.php
+wp-settings.php
+wp-content/uploads/*.php
+
+# Django
+settings.py
+.env
+
+# Laravel
+.env
+config/database.php
+config/app.php
+
+# Ruby on Rails
+database.yml
+secrets.yml
+application.yml
+
+# Node.js / JavaScript
+.env
+config.js
+default.json
+production.json
+.npmrc
+
+# PHP
+config.php
+db.php
+database.php
+
+# Java
+application.properties
+application.yml
+hibernate.cfg.xml
+
+# Python
+.env
+settings.py
+
+# Go (Golang)
+config.json
+.env
+
+# **4. Fichiers cloud ou DevOps**
+aws_credentials
+aws_access_keys
+.boto
+azure_credentials.json
+gcloud.json
+terraform.tfvars
+kubeconfig
+kubernetes.yml
+docker-compose.yml
+service-account.json
+
+# **5. Fichiers spécifiques aux bases de données**
+my.cnf
+.pgpass
+dbconfig.yml
+database.ini
+
+# **6. Fichiers pour services tiers**
+.netrc
+ftpconfig
+.s3cfg
+.curlrc
+settings.xml
+
+# **7. Fichiers exposant des clés API ou des tokens**
+apikeys.json
+api-keys.txt
+tokens.json
+access_tokens.txt
+.auth
+auth.json
+.vault
+.jwt
+
+# **8. Fichiers générés automatiquement**
+debug.log
+error.log
+nohup.out
+.bash_history
+.zsh_history
+
+# **9. Fichiers spécifiques aux conteneurs**
+Dockerfile
+docker-compose.override.yml
+.dockercfg
+config.json
+
+# **10. Fichiers liés à des outils de CI/CD**
+.circleci/config.yml
+jenkinsfile
+.drone.yml
+azure-pipelines.yml
+
+# **11. Fichiers liés à des outils de gestion des secrets**
+vault.yml
+vault.env
+vault.json
+ansible-vault
+
+# **12. Fichiers intéressants sous Windows**
+C:\Users\<User>\AppData\Roaming\Microsoft\Credentials
+C:\Users\<User>\AppData\Local\Google\Chrome\User Data\Default\Login Data
+C:\Users\<User>\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt
+C:\ProgramData\Docker\config.json
+C:\Users\<User>\.ssh\id_rsa
+C:\Users\<User>\.aws\credentials
+C:\Windows\system32\config\SAM
+
+# **13. Fichiers intéressants sous Linux**
+/etc/passwd
+/etc/shadow
+/etc/ssh/ssh_config
+/etc/ssh/sshd_config
+~/.bashrc
+~/.bash_profile
+~/.ssh/id_rsa
+~/.aws/credentials
+/var/log/auth.log
+/var/log/syslog
+
+# **14. Fichiers intéressants sous Docker**
+/root/.docker/config.json
+/etc/docker/daemon.json
+~/.docker/config.json
+
+# **15. Fichiers intéressants sous Android**
+/data/system/users/0/settings_secure.xml
+/data/misc/wifi/WifiConfigStore.xml
+/data/system_ce/0/accounts_ce.db
+/data/data/com.android.browser/databases/webview.db
+/data/data/com.android.chrome/app_chrome/Default/Login Data
+
+# **16. Fichiers intéressants sous Apple/macOS**
+~/Library/Keychains
+~/Library/Application Support/Google/Chrome/Default/Login Data
+~/Library/Application Support/Firefox/Profiles/*.default-release/logins.json
+~/Library/Preferences/com.apple.iphonesimulator.plist
+~/.ssh/id_rsa
+~/.aws/credentials
+~/.zsh_history
+/Library/Preferences/SystemConfiguration/com.apple.airport.preferences.plist
+
+
+# **1. Fichiers Firefox**
+~/Library/Application Support/Firefox/Profiles/*.default-release/logins.json
+~/Library/Application Support/Firefox/Profiles/*.default-release/key4.db
+~/Library/Application Support/Firefox/Profiles/*.default-release/cookies.sqlite
+~/Library/Application Support/Firefox/Profiles/*.default-release/formhistory.sqlite
+~/Library/Application Support/Firefox/Profiles/*.default-release/places.sqlite
+C:\Users\<User>\AppData\Roaming\Mozilla\Firefox\Profiles\<Profile>\logins.json
+C:\Users\<User>\AppData\Roaming\Mozilla\Firefox\Profiles\<Profile>\key4.db
+C:\Users\<User>\AppData\Roaming\Mozilla\Firefox\Profiles\<Profile>\cookies.sqlite
+
+# **2. Fichiers Thunderbird**
+C:\Users\<User>\AppData\Roaming\Thunderbird\Profiles\<Profile>\signons.sqlite
+C:\Users\<User>\AppData\Roaming\Thunderbird\Profiles\<Profile>\key4.db
+C:\Users\<User>\AppData\Roaming\Thunderbird\Profiles\<Profile>\prefs.js
+
+# **3. Fichiers FileZilla**
+C:\Users\<User>\AppData\Roaming\FileZilla\sitemanager.xml
+C:\Users\<User>\AppData\Roaming\FileZilla\recentservers.xml
+~/.config/filezilla/sitemanager.xml
+~/.config/filezilla/recentservers.xml
+
+# **4. Fichiers SSH**
+~/.ssh/id_rsa
+~/.ssh/id_rsa.pub
+~/.ssh/known_hosts
+~/.ssh/config
+C:\Users\<User>\.ssh\id_rsa
+C:\Users\<User>\.ssh\id_rsa.pub
+C:\Users\<User>\.ssh\known_hosts
+C:\Users\<User>\.ssh\config
+
+# **5. Fichiers RDP (Raccourcis Remote Desktop)**
+*.rdp
+C:\Users\<User>\Documents\Default.rdp
+C:\Users\<User>\AppData\Local\Microsoft\Terminal Server Client\Cache\
+
+# **6. Fichiers contenant "password", "motdepasse", etc. (en plusieurs formats et langues)**
+# Formats communs : .txt, .xlsx, .xls, .doc, .docx, .csv, .json, .kdbx
+password.txt
+password.xlsx
+password.xls
+password.doc
+password.docx
+password.csv
+password.json
+password.kdbx
+motdepasse.txt
+motdepasse.xlsx
+motdepasse.xls
+motdepasse.doc
+motdepasse.docx
+motdepasse.csv
+motdepasse.json
+motdepasse.kdbx
+login.txt
+login.xlsx
+login.xls
+login.doc
+login.docx
+login.csv
+login.json
+login.kdbx
+pass.txt
+pass.xlsx
+pass.xls
+pass.doc
+pass.docx
+pass.csv
+pass.json
+pass.kdbx
+pwd.txt
+pwd.xlsx
+pwd.xls
+pwd.doc
+pwd.docx
+pwd.csv
+pwd.json
+pwd.kdbx
+
+# **7. Traductions de "password" dans d'autres langues (en plusieurs formats)**
+# Français
+motdepasse.txt
+motdepasse.xlsx
+motdepasse.csv
+motdepasse.docx
+
+# Allemand
+passwort.txt
+passwort.xlsx
+passwort.csv
+passwort.docx
+
+# Espagnol
+contraseña.txt
+contraseña.xlsx
+contraseña.csv
+contraseña.docx
+
+# Italien
+password.txt
+password.xlsx
+password.csv
+password.docx
+
+# Portugais
+senha.txt
+senha.xlsx
+senha.csv
+senha.docx
+
+# Russe
+пароль.txt
+пароль.xlsx
+пароль.csv
+пароль.docx
+
+# Chinois
+密码.txt
+密码.xlsx
+密码.csv
+密码.docx
+
+# Japonais
+パスワード.txt
+パスワード.xlsx
+パスワード.csv
+パスワード.docx
+
+# Arabe
+كلمة_السر.txt
+كلمة_السر.xlsx
+كلمة_السر.csv
+كلمة_السر.docx
+
+# Hindi
+पासवर्ड.txt
+पासवर्ड.xlsx
+पासवर्ड.csv
+पासवर्ड.docx
+
+
+# **1. Fichiers spécifiques à des applications ou outils divers**
+# Applications de messagerie instantanée et chat
+skype.db                 # Skype (ancien format SQLite)
+telegram_desktop_data    # Fichiers locaux Telegram
+discord_settings.json    # Discord configuration file
+signal.db                # Signal database file
+
+# Clients FTP / SFTP
+winscp.ini               # WinSCP configuration file
+coreftp.ini              # CoreFTP saved credentials
+cyberduck_preferences.plist # Cyberduck configuration file
+
+# Navigateurs (en plus de Firefox)
+login data               # Google Chrome saved passwords database
+web_data                 # Chromium web data (cookies, autofill)
+default.sqlite           # Opera's autofill database
+
+# Clients de bureau (local)
+onedrive_settings.dat    # Microsoft OneDrive settings
+dropbox_config.json      # Dropbox configuration file
+nextcloud.cfg            # Nextcloud configuration file
+
+# Fichiers de wallet ou de cryptomonnaies
+wallet.dat               # Bitcoin Core wallet
+blockchain_wallet.json   # Blockchain.com wallet
+ethereum_keystore        # Ethereum wallet keystore
+keystore.json            # Ethereum private key storage
+
+# Gestionnaires de mots de passe
+keepass.kdbx             # KeePass encrypted database
+lastpass.sqlite          # LastPass local SQLite database
+bitwarden.json           # Bitwarden export file
+1password.opvault        # 1Password database
+
+---
+
+# **2. Fichiers spécifiques à des langages ou environnements**
+# Ruby
+Gemfile                  # Peut contenir des credentials pour des gemmes privées
+Gemfile.lock             # Parfois expose des informations sensibles
+
+# Python
+requirements.txt         # Peut contenir des credentials dans des URL de dépendances
+pyproject.toml           # Configuration de projet Python avec secrets possibles
+
+# Node.js / JavaScript
+package-lock.json        # Les secrets peuvent être en dur dans certaines dépendances
+
+# Java
+pom.xml                  # Maven configuration avec secrets pour repos privés
+
+# PHP
+.htaccess                # Souvent utilisé pour les règles de sécurité, mais peut exposer des données
+
+# Rust
+Cargo.toml               # Configuration de projet Rust
+Cargo.lock               # Verrouillage des dépendances avec éventuels secrets
+
+---
+
+# **3. Fichiers générés automatiquement par les systèmes ou services**
+crash.log                # Fichiers de crash contenant des infos sensibles
+dump.rdb                 # Snapshot Redis avec données utilisateur
+heapdump-*.json          # Dumps de mémoire Node.js
+hs_err_pid*.log          # Fichiers d'erreurs Java contenant des traces sensibles
+stacktrace.txt           # Fichiers de stacktrace pour diverses applications
+core                    # Core dumps générés par le système
+*.minidump               # Dumps Windows mini (souvent envoyés à Microsoft)
+
+---
+
+# **4. Fichiers réseau et services**
+dnsmasq.conf             # Configuration DNS local
+resolver.conf            # Configuration résolveur DNS
+smb.conf                 # Configuration Samba
+nfs.conf                 # Configuration NFS (Network File System)
+apache2.conf             # Configuration Apache
+nginx.conf               # Configuration NGINX avec credentials backend
+
+---
+
+# **5. Fichiers d’historique et journaux**
+.bash_logout             # Historique des déconnexions utilisateur
+npm-debug.log            # Journaux de débogage NPM contenant des secrets
+composer.log             # Historique d’installation Composer
+install.log              # Journaux d’installation des applications
+
+---
+
+# **6. Fichiers de gestion d'accès ou d'authentification**
+.htpasswd                # Fichier d'authentification pour HTTP Basic Auth
+authorized_keys          # Clés SSH autorisées (parfois mal gérées)
+id_dsa                   # Clé privée DSA
+id_ecdsa                 # Clé privée ECDSA
+id_ed25519               # Clé privée Ed25519
+krb5.conf                # Configuration Kerberos
+
+---
+
+# **7. Fichiers de backup / archive (fréquemment oubliés)**
+*.bak                    # Extensions classiques de fichiers de backup
+*.old                    # Extensions marquant une ancienne version de fichier
+*.swp                    # Fichiers temporaires Vim
+*.zip                    # Archives contenant potentiellement des secrets
+*.tar.gz                 # Archives compressées
+*.7z                     # Archives protégées ou non
+*.rar                    # Archives compressées
+db-backup.sql            # Backups SQL non sécurisés
+backup.json              # Backup JSON (services variés)
+backup.env               # Backups d’environnement
+
+---
+
+# **8. Fichiers spécifiques aux sauvegardes de systèmes ou utilisateurs**
+ntuser.dat               # Données utilisateur sous Windows
+default_profile.dat      # Profil utilisateur par défaut
+system.log               # Journaux système sous macOS
+syslog                   # Journaux système sous Linux
+kernel.log               # Journaux du noyau
+secure.log               # Journaux des connexions SSH sous Linux
+passwd-                  # Fichier de backup de /etc/passwd
+
+---
+
+# **9. Autres fichiers contenant des mots-clés sensibles**
+# Formats divers pour des fichiers contenant des mots-clés communs :
+api_keys.txt
+credentials.json
+secret_key.env
+tokens.csv
+passwd.json
+motdepasse_backup.txt
+contraseña_old.docx
+senhas.xlsx
+пароли.docx
+# **1. Emplacements système et fichiers sensibles sous Android**
+/data/system/users/0/settings_secure.xml       # Contient des données utilisateur sensibles
+/data/system_ce/0/accounts_ce.db              # Comptes utilisateurs et tokens d’accès
+/data/system/locksettings.db                  # Informations sur les mécanismes de verrouillage
+/data/misc/wifi/WifiConfigStore.xml           # Configurations WiFi et parfois mots de passe
+/data/misc/wifi/wpa_supplicant.conf           # Fichier historique (plus utilisé, mais présent sur anciens appareils)
+/data/system/packages.xml                     # Liste des packages installés
+/data/system/gesture.key                      # Motif de verrouillage (sous forme de hash)
+/data/misc/bluedroid                          # Informations sur les appareils Bluetooth associés
+/data/misc/vpn/profiles                       # Configurations VPN
+/data/misc/keystore/user_0/                   # Stockage des clés utilisateur
+/data/app/<package_name>/                     # Données spécifiques aux applications
+/data/data/<package_name>/files/              # Fichiers internes des applications
+/data/data/<package_name>/shared_prefs/      # Préférences partagées (souvent non chiffrées)
+/data/data/<package_name>/databases/         # Bases de données SQLite des applications
+
+---
+
+# **2. Fichiers des applications les plus courantes**
+# Google Chrome
+/data/data/com.android.chrome/databases/Login Data       # Mots de passe enregistrés
+/data/data/com.android.chrome/app_chrome/Default/Bookmarks # Signets enregistrés
+
+# Facebook
+/data/data/com.facebook.katana/databases/shared_prefs    # Préférences locales
+/data/data/com.facebook.katana/files/stash              # Cache utilisateur
+
+# WhatsApp
+/data/data/com.whatsapp/databases/msgstore.db            # Historique des messages
+/data/data/com.whatsapp/databases/wa.db                  # Base de données des contacts
+/data/media/0/WhatsApp/Media/                            # Fichiers multimédias partagés
+
+# Telegram
+/data/data/org.telegram.messenger/files/cache4.db        # Cache des données utilisateur
+/data/data/org.telegram.messenger/shared_prefs/userdata.xml # Préférences utilisateur
+
+# Signal
+/data/data/org.thoughtcrime.securesms/databases/         # Bases de données des messages chiffrés
+
+# Discord
+/data/data/com.discord/databases/                        # Bases de données des messages et tokens
+
+# TikTok
+/data/data/com.zhiliaoapp.musically/shared_prefs/        # Données utilisateur et tokens
+
+---
+
+# **3. Emplacements pour les clés et certificats**
+/data/misc/keystore/user_0/*                             # Keystore utilisateur
+/system/etc/security/cacerts/                            # Certificats racine installés
+/data/misc/adb/adb_keys                                  # Clés ADB autorisées pour la débogage
+
+---
+
+# **4. Fichiers journaux et dumps mémoire**
+/data/log/                                               # Journaux système
+/data/tombstones/                                        # Dumps mémoire des crashs d’applications
+/system/build.prop                                       # Informations système et modèle de l’appareil
+/data/anr/traces.txt                                     # Traces des ANR (Applications Not Responding)
+/data/system/dropbox/                                    # Journaux des crashs systèmes
+
+---
+
+# **5. Fichiers pour les sauvegardes (backup)**
+/sdcard/TitaniumBackup/                                  # Backups de l'application Titanium Backup
+/sdcard/WhatsApp/Databases/msgstore.db.crypt12          # Sauvegardes WhatsApp (chiffrées, clé possible sur l’appareil)
+/sdcard/Android/data/<package_name>/                    # Données utilisateur d'applications sauvegardées
+/sdcard/DCIM/                                           # Dossier contenant des fichiers multimédias
+
+---
+
+# **6. Emplacements liés aux gestionnaires de mots de passe**
+/data/data/com.lastpass.lpandroid/databases/             # Base de données LastPass
+/data/data/com.bitwarden.mobile/files/                   # Données Bitwarden
+/data/data/com.dashlane/databases/                       # Base de données Dashlane
+/data/data/com.keepersecurity.android/databases/         # Base de données Keeper
+
+---
+
+# **7. Fichiers liés au root et à l'exploitation**
+/data/local/tmp/                                         # Temporaire pour les scripts root
+/system/bin/su                                           # Vérification si un binaire "su" existe
+/system/xbin/su                                          # Version alternative de "su"
+/data/data/com.topjohnwu.magisk/shared_prefs/           # Magisk root manager (souvent utilisé pour des accès root)
+/data/local.prop                                         # Configuration locale accessible après root
+/system/etc/init.d/                                      # Scripts init exécutés au démarrage (souvent utilisés après root)
+
+---
+
+# **8. Fichiers potentiellement sensibles dans la mémoire externe (SD card)**
+/storage/emulated/0/Download/                           # Téléchargements (souvent avec des fichiers sensibles)
+/storage/emulated/0/Documents/                         # Documents enregistrés par l’utilisateur
+/storage/emulated/0/Android/data/                      # Données d’applications
+/storage/emulated/0/Android/obb/                       # Fichiers de données volumineuses d'applications
+/storage/emulated/0/passwords.txt                      # Recherche ciblée sur "password", "keys", etc.
+/storage/emulated/0/*.bak                              # Fichiers de sauvegarde courants
+/storage/emulated/0/*.old                              # Versions anciennes de fichiers
+
+---
+
+# **9. Autres fichiers d’intérêt**
+/sdcard/*.zip                                           # Archives pouvant contenir des secrets
+/sdcard/*.rar                                           # Archives compressées
+/sdcard/*.tar.gz                                        # Archives tar compressées
+/sdcard/*.kdbx                                          # Fichiers de gestion de mots de passe KeePass
+/sdcard/*.csv                                           # Exportations de mots de passe
+/sdcard/*.txt                                           # Notes texte contenant des données sensibles
+/sdcard/*.json                                          # Fichiers JSON contenant des secrets
+/sdcard/.hidden/                                        # Dossiers ou fichiers cachés
+
+# **1. Fichiers de dump et de sauvegardes (.dump, .bak, .old, etc.)**
+*.dump                      # Dumps de base de données ou de logs
+*.sql.dump                  # Dumps de bases SQL
+*.db.dump                   # Dumps de fichiers SQLite ou autres bases
+*.sql.bak                   # Sauvegardes de fichiers SQL
+*.bak                       # Sauvegarde générique
+*.backup                    # Extension utilisée pour indiquer une sauvegarde
+*.old                       # Ancienne version d'un fichier
+*.save                      # Fichier sauvegardé temporairement
+*.swp                       # Fichiers temporaires (notamment de Vim ou autres éditeurs)
+*.tmp                       # Fichiers temporaires
+*.orig                      # Fichiers originaux après modification
+db_backup.sql               # Sauvegardes explicites de bases SQL
+db.dump                     # Dump brut de bases de données
+db.bak                      # Sauvegarde d’une base de données
+database_backup.sql         # Fichiers SQL utilisés comme backups
+old_config.cfg              # Versions anciennes de fichiers de configuration
+config.bak                  # Sauvegarde de configuration
+config.old                  # Ancienne configuration
+passwd.bak                  # Sauvegarde d’un fichier "passwd"
+passwd-                     # Fichiers de sauvegarde système sur Linux (e.g. /etc/passwd-)
+shadow-                     # Sauvegardes du fichier /etc/shadow sur Linux
+*.kdbx.bak                  # Sauvegardes de fichiers KeePass
+
+---
+
+# **2. Fichiers SQL et bases de données**
+*.sql                       # Exportations SQL
+*.sqlite                    # Fichiers SQLite
+*.sqlite3                   # Fichiers SQLite3
+*.db                        # Bases de données brutes
+*.db.bak                    # Sauvegardes de bases de données
+*.db.old                    # Versions anciennes de bases de données
+*.mdb                       # Bases de données Microsoft Access
+*.accdb                     # Bases Access modernes
+*.dump.sql                  # Dump de base SQL
+*.schema.sql                # Fichiers définissant un schéma de base
+
+---
+
+# **3. Fichiers liés à des sauvegardes spécifiques (backup)**
+*.tar                       # Archives de sauvegarde non compressées
+*.tar.gz                    # Archives compressées
+*.tgz                       # Archive compressée (.tar.gz court)
+*.zip                       # Archives ZIP (souvent des backups)
+*.rar                       # Archives RAR
+*.7z                        # Archives 7z (SevenZip)
+*.gz                        # Fichiers gzip
+*.zlib                      # Archives zlib
+*.dmp                       # Sauvegardes brutes ou dumps mémoire
+*.log.bak                   # Sauvegardes de logs
+*.log.old                   # Anciennes versions de fichiers de logs
+*.journal                   # Journaux systèmes Linux (journalctl)
+*.dump.gz                   # Dumps compressés (ex. PostgreSQL, MongoDB)
+
+---
+
+# **4. Fichiers créés par des outils de sauvegarde connus**
+# Sauvegardes automatiques ou manuelles
+*.tib                       # True Image Backup (Acronis)
+*.wbk                       # Word Backup (fichiers Word)
+*.bakup                     # Sauvegardes personnalisées
+*.dmg                       # Images disques macOS (souvent utilisées pour les backups)
+backup.tar.gz               # Sauvegardes explicites
+snapshot.bak                # Snapshots d’applications
+dump.rdb                    # Sauvegarde de Redis
+mongodump.archive           # Sauvegarde MongoDB (dump compressé)
+*.sqldump                   # Sauvegarde brute de SQL
+
+---
+
+# **5. Extensions utilisées par les développeurs pour gérer des fichiers temporaires**
+*.temp                      # Fichiers temporaires
+*.~                         # Sauvegardes d'éditeurs (comme Emacs)
+*.~1~                       # Sauvegardes supplémentaires (versioning local)
+*.001, *.002, ...           # Découpage d’archives volumineuses
+config.json.bak             # Sauvegarde d'un fichier JSON
+appsettings.json.bak        # Sauvegarde des paramètres d'application
+
+---
+
+# **6. Fichiers et répertoires spécifiques générés automatiquement (souvent oubliés)**
+~/.Trash/                   # Dossier de corbeille sous Linux/macOS
+~/.local/share/Trash/       # Dossier de corbeille (variantes Linux)
+/recycle.bin/               # Dossier de corbeille sous Windows
+*.recycle                   # Fichiers liés à des recycle bins tiers
+*.~lock                     # Fichiers de verrouillage temporaires (LibreOffice)
+backup_old.tar.gz           # Sauvegardes obsolètes
+*.tempconfig                # Fichiers de configuration temporaires
+
+---
+
+# **7. Autres fichiers de sauvegarde en clair contenant des données sensibles**
+passwords.old.txt           # Anciennes versions de fichiers contenant des mots de passe
+passwords.bak               # Sauvegardes de fichiers de mots de passe
+api_keys.old                # Fichiers de clés API obsolètes
+credentials_backup.json     # Backup de credentials
+keys_dump.txt               # Fichiers de clés (souvent oubliés après tests)
+logs_backup.tar.gz          # Sauvegardes des logs d'application
+ssh_backup/                 # Sauvegardes des clés SSH
+
+---
+
+# **8. Fichiers spécifiques à des systèmes ou outils**
+registry_backup.reg         # Sauvegardes du registre Windows
+backup_registry.reg         # Autres variations de sauvegarde du registre
+*.vhd, *.vhdx               # Sauvegardes de disques virtuels (VirtualBox, Hyper-V)
+*.qcow2                     # Sauvegardes d’images disque QEMU
+*.ova, *.ovf                # Exports de machines virtuelles
+*.img                       # Images brutes de systèmes
+*.iso                       # Copies exactes de systèmes
+
+# **1. Fichiers liés aux configurations réseau (Switches, Routeurs, Firewalls)**
+startup-config             # Configuration active sur switches/routeurs Cisco et autres
+running-config             # Configuration en cours d’exécution sur switches/routeurs
+*.cfg                      # Fichiers de configuration des équipements réseau
+config.boot                # Fichiers de démarrage de certains équipements (EdgeRouter, etc.)
+config.text                # Sauvegardes de configurations (Cisco et similaires)
+*.scf                      # Smart Configuration File (ex: 3Com switches)
+*.cnf                      # Configuration générale ou spécifique aux équipements réseau
+firewall.conf              # Configuration d’un firewall
+iptables-save              # Sauvegarde de règles iptables
+pf.conf                    # Configuration de Packet Filter (OpenBSD, pfSense)
+*.rsc                      # Sauvegarde de configuration Mikrotik/RouterOS
+*.exp                      # Export de configuration (Checkpoint Firewalls)
+*.dat                      # Configurations exportées (Juniper devices, parfois chiffrées)
+*.sav                      # Sauvegardes automatiques (Fortinet, SonicWall)
+*.opt                      # Options de configuration (pfsense, Cisco, etc.)
+configs.tar.gz             # Fichiers compressés de sauvegarde réseau
+syslog.log                 # Logs réseau sur équipements
+*.log                      # Fichiers de logs pour diagnostics
+
+---
+
+# **2. Fichiers spécifiques aux VPNs et tunnels**
+*.ovpn                     # Fichiers de configuration OpenVPN (souvent avec clés privées)
+*.conf                     # Configurations IPsec, WireGuard, ou VPN général
+*.key                      # Clés privées pour les tunnels VPN
+vpnconfig.dat              # Sauvegardes de configuration VPN
+*.pcf                      # Fichier de configuration Cisco VPN Client
+client.ovpn                # Configurations VPN pour les clients
+server.conf                # Configuration de serveur VPN
+ipsec.conf                 # Configuration IPsec
+ipsec.secrets              # Fichier contenant les secrets pour IPsec
+strongswan.conf            # Configuration Strongswan VPN
+*.crt                      # Certificats pour tunnels sécurisés
+*.pem                      # Certificats publics/privés (souvent liés aux VPNs)
+*.der                      # Certificats codés en binaire
+
+---
+
+# **3. Fichiers pour Wi-Fi et réseaux sans fil**
+hostapd.conf               # Configuration d’un point d’accès (hostapd)
+dnsmasq.conf               # Configuration DNS et DHCP (souvent avec IP statiques)
+radiusd.conf               # Configurations RADIUS pour authentification réseau
+*.psk                      # Fichiers contenant des mots de passe PSK Wi-Fi
+*.wep                      # Clés WEP pour anciens réseaux
+wireless.conf              # Configurations Wi-Fi (SSID, clés WPA/WPA2)
+*.cap                      # Dumps de capture réseau Wireshark ou tcpdump
+wpa_supplicant.conf        # Configurations Wi-Fi (souvent avec clés en clair)
+
+---
+
+# **4. Fichiers liés aux diagnostics réseau**
+tcpdump.pcap               # Captures réseau brutes
+wireshark.log              # Logs de sessions Wireshark
+ethernet.pcap              # Captures réseau Ethernet
+network_analysis.cap       # Fichiers de capture pour analyse réseau
+traceroute.log             # Résultat de traceroute
+ping_results.txt           # Résultat de diagnostics réseau
+nmap_scan.xml              # Résultats d’analyse Nmap (format XML)
+nmap_results.txt           # Résultats d’analyse Nmap (texte brut)
+netstat_output.txt         # Résultats de netstat
+ss_output.txt              # Résultats de `ss` (Linux, sockets réseau)
+
+---
+
+# **5. Fichiers de sauvegardes et archives spécifiques aux équipements réseau**
+config-<date>.bak          # Sauvegardes des configurations avec horodatage
+backup-config.tar.gz       # Fichiers compressés de sauvegarde
+startup-config.bak         # Sauvegardes des configurations de démarrage
+running-config.bak         # Sauvegardes des configurations en cours
+*.nvr                      # Sauvegardes Netgear ReadyNAS/Routeurs
+*.bin                      # Images système ou sauvegardes binaires (Netgear, Cisco)
+firmware.img               # Sauvegardes ou images de firmware
+*.trx                      # Fichiers de firmware des routeurs Broadcom
+flash:/                    # Répertoire contenant des fichiers sur certains routeurs
+nvram:/                    # Fichiers stockés dans la mémoire NVRAM
+boot:/                     # Configurations de démarrage
+backup_settings.conf       # Sauvegardes spécifiques des paramètres
+*.dat                      # Configurations sauvegardées des équipements
+tftp_logs.txt              # Logs des transferts TFTP (souvent utilisés sur routeurs)
+
+---
+
+# **6. Fichiers sensibles générés par des outils ou systèmes de monitoring réseau**
+snmpd.conf                 # Configuration SNMP (peut contenir les strings communautaires)
+nagios.cfg                 # Configuration principale de Nagios
+zabbix_agentd.conf         # Configuration de l’agent Zabbix
+icinga2.conf               # Configuration Icinga2
+*.rrd                      # Fichiers de bases de données RRDTool pour métriques réseau
+netflow_export.json        # Données exportées NetFlow
+flows.xml                  # Données brutes d’analyse de flux réseau
+topology.json              # Schémas réseau générés automatiquement
+network_map.xml            # Cartographie réseau
+*.csv                      # Export des configurations réseau ou des logs
+
+---
+
+# **7. Clés privées et certificats spécifiques aux équipements réseau**
+*.cer                      # Certificats pour authentification (routeurs, firewalls)
+*.p12                      # Certificats avec clés privées (PKCS#12)
+*.pfx                      # Certificats avec clés privées (PKCS#12)
+*.jks                      # Java Keystore (utilisé dans certains équipements réseau)
+*.crt                      # Certificats pour HTTPS ou VPN
+*.key                      # Clés privées pour tunnels ou certificats
+dhparam.pem                # Paramètres Diffie-Hellman pour TLS
+
+---
+
+# **8. Fichiers de configuration pour outils réseau**
+openvpn.log                # Logs d’OpenVPN
+sshd_config                # Configuration SSH
+authorized_keys            # Clés SSH autorisées
+known_hosts                # Hôtes SSH connus
+config.yml                 # Configurations pour des outils réseau YAML
+settings.ini               # Paramètres pour divers outils
+
+---
+
