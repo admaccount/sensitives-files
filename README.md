@@ -112,4 +112,4 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 ### Author
 
-Created by **[TrustMe](https://github.com/TrustMe)**. Feel free to reach out for questions or feedback!
+Created by **[TrustMe](https://github.com/TrustMe00)**. Feel free to reach out for questions or feedback!
