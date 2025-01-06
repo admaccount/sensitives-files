@@ -788,4 +788,71 @@ config.yml                 # Configurations pour des outils réseau YAML
 settings.ini               # Paramètres pour divers outils
 
 ---
+# Configurations générales
+/etc/network/interfaces               # Configuration réseau (Linux-based IoT)
+/etc/wpa_supplicant/wpa_supplicant.conf  # Config Wi-Fi (Linux-based IoT)
+/etc/hosts                           # Résolution DNS manuelle
+/etc/resolv.conf                     # Configuration DNS
+/etc/hostname                        # Nom de l’appareil IoT
+/etc/mosquitto/mosquitto.conf        # Configuration MQTT
+/etc/coap-server/config.json         # Configuration CoAP
+
+# Clés et certificats
+/etc/ssl/private/server.key          # Clé privée pour HTTPS
+/etc/ssl/private/server.crt          # Certificat serveur
+/etc/ssl/certs/client.pem            # Certificat client
+/etc/ssl/private/key.pem             # Autres clés SSL
+/etc/ssl/private/iot-device.pem      # Clé spécifique IoT
+
+# Journaux système et applications
+/var/log/messages                    # Logs système (Linux-based IoT)
+/var/log/syslog                      # Journaux système
+/var/log/mosquitto/mosquitto.log     # Journaux MQTT
+/var/log/iot-daemon.log              # Journaux spécifiques aux démons IoT
+/tmp/debug.log                       # Journaux temporaires
+/tmp/iot-device.log                  # Logs spécifiques d’un appareil IoT
+
+# Credentials et secrets
+~/.iot/config.json                   # Config IoT contenant potentiellement des secrets
+/etc/iot-secrets.json                # Secrets ou clés API
+/etc/device-credentials.yaml         # Fichiers de mots de passe ou clés
+~/.aws/credentials                   # Intégration cloud AWS IoT
+~/.mqtt/mqtt-credentials.txt         # Credentials MQTT
+
+# Configurations générales
+/etc/fstab                          # Points de montage des disques
+/etc/exports                        # Configuration des partages NFS
+/etc/samba/smb.conf                 # Configuration des partages Samba (Windows/Linux)
+/etc/nfs.conf                       # Configuration NFS
+/etc/iscsid.conf                    # Configuration iSCSI initiator
+/etc/multipath.conf                 # Configuration Multipath (SAN)
+~/.ssh/id_rsa                       # Clé privée pour accès SSH
+~/.ssh/authorized_keys              # Clés SSH autorisées
+/etc/iscsi/initiatorname.iscsi      # Nom de l’initiateur iSCSI
+
+# Baies spécifiques
+/etc/zfs/zpool.cache                # Cache ZFS contenant des informations sur les pools
+/etc/zfs/zfs.conf                   # Configuration ZFS
+/etc/mdadm/mdadm.conf               # Configuration des RAID (Linux-based)
+~/.freenas/config/db.sqlite         # Base de données FreeNAS/TrueNAS
+/var/db/system/ssh/ssh_host_rsa_key # Clé SSH sur TrueNAS
+/etc/qnap/qnap.conf                 # Configurations des baies QNAP
+
+# Journaux système
+/var/log/messages                   # Logs système de la baie
+/var/log/dmesg                      # Informations sur le matériel
+/var/log/nfs.log                    # Journaux des partages NFS
+/var/log/samba/log.smbd             # Logs Samba
+/var/log/samba/log.nmbd             # Logs réseau pour Samba
+/var/log/mdadm.log                  # Logs RAID
+/var/log/zfs.log                    # Journaux ZFS
+/var/log/storage-daemon.log         # Journaux spécifiques au stockage
+
+# Credentials et secrets
+/etc/secrets.txt                    # Fichier contenant des mots de passe ou clés
+/etc/qnap/secrets                   # Secrets spécifiques aux baies QNAP
+/etc/truenas/secrets                # Fichiers secrets TrueNAS
+/etc/vmware/esxi/credentials.conf   # Credentials pour baies VMware
+/etc/netapp/password.txt            # Fichiers de mots de passe NetApp
+/etc/hp/storage/passwords.xml       # Configs et mots de passe HP Storage
 
