@@ -113,3 +113,4 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 ### Author
 
 Created by **[TrustMe](https://github.com/admaccount)**. Feel free to reach out for questions or feedback!
+inspired by https://github.com/InfoSecWarrior/Offensive-Payloads/tree/main(https://github.com/InfoSecWarrior/Offensive-Payloads/tree/main)
