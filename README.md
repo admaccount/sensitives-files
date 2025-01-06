@@ -65,7 +65,7 @@ startup-config
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/TrustMe/sensitive-files.git
+   git clone https://github.com/admaccount/sensitive-files.git
    ```
 
 2. Integrate the file list into your auditing tools or scripts to search for potential sensitive files.
@@ -112,4 +112,4 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 ### Author
 
-Created by **[TrustMe](https://github.com/TrustMe00)**. Feel free to reach out for questions or feedback!
+Created by **[TrustMe](https://github.com/admaccount)**. Feel free to reach out for questions or feedback!
