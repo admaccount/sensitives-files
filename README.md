@@ -65,7 +65,7 @@ startup-config
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/admaccount/sensitive-files.git
+   git clone https://github.com/admaccount/sensitives-files.git
    ```
 
 2. Integrate the file list into your auditing tools or scripts to search for potential sensitive files.
