@@ -182,6 +182,7 @@ fi
 
 # Recherche dans un chemin spécifique
 if [[ -n "$PATH_TO_SCAN" ]]; then
+    check_root
     search_in_folder "$PATH_TO_SCAN" "${KEYWORDS[@]}"
 fi
 
