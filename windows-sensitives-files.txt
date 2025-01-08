@@ -1,4 +1,3 @@
-
 C:\inetpub\logs\LogFiles
 C:\inetpub\wwwroot
 C:\inetpub\wwwroot\default.htm
@@ -124,3 +123,42 @@ wpa_supplicant.conf
 %APPDATA%\UltraVNC\passwd
 %APPDATA%\RealVNC\VNCViewer\passwords.vnc
 %APPDATA%\RealVNC\VNCViewer\config.vnc
+%LOCALAPPDATA%\Google\Chrome\User Data\Default\Login Data
+%LOCALAPPDATA%\Google\Chrome\User Data\Default\Cookies
+%LOCALAPPDATA%\Google\Chrome\User Data\Default\History
+%LOCALAPPDATA%\Google\Chrome\User Data\Default\Preferences
+%LOCALAPPDATA%\Google\Chrome\User Data\Default\Secure Preferences
+%LOCALAPPDATA%\Google\Chrome\User Data\Default\Bookmarks
+%LOCALAPPDATA%\Google\Chrome\User Data\Default\Web Data
+%APPDATA%\Opera Software\Opera Stable\Login Data
+%APPDATA%\Opera Software\Opera Stable\Cookies
+%APPDATA%\Opera Software\Opera Stable\History
+%APPDATA%\Opera Software\Opera Stable\Preferences
+%APPDATA%\Opera Software\Opera Stable\Bookmarks
+%APPDATA%\Code\User\settings.json
+%APPDATA%\Code\User\keybindings.json
+%APPDATA%\Code\User\snippets\*.json
+%APPDATA%\Code\logs\*.log
+%APPDATA%\Code\User\workspaceStorage\*
+%APPDATA%\Discord\Local Storage\leveldb\*
+%APPDATA%\Discord\Cookies
+%APPDATA%\Discord\settings.json
+%APPDATA%\Discord\GPUCache\*
+%APPDATA%\Microsoft\Teams\Cookies
+%APPDATA%\Microsoft\Teams\logs.txt
+%APPDATA%\Microsoft\Teams\settings.json
+%APPDATA%\Microsoft\Teams\desktop-config.json
+%APPDATA%\PuTTY\PUTTY.RND
+%APPDATA%\PuTTY\Sessions\*
+%APPDATA%\PuTTY\sshhostkeys
+%APPDATA%\Thunderbird\Profiles\[Profile_Name]\prefs.js
+%APPDATA%\Thunderbird\Profiles\[Profile_Name]\logins.json
+%APPDATA%\Thunderbird\Profiles\[Profile_Name]\key4.db
+%APPDATA%\Thunderbird\Profiles\[Profile_Name]\cert9.db
+%APPDATA%\Thunderbird\Profiles\[Profile_Name]\signons.sqlite
+%APPDATA%\Microsoft\Outlook\*.ost
+%LOCALAPPDATA%\Microsoft\Outlook\*.pst
+%LOCALAPPDATA%\Microsoft\Outlook\*.ost
+%APPDATA%\Microsoft\Outlook\*.xml
+%APPDATA%\Microsoft\Signatures\*
+%APPDATA%\Roaming\Microsoft\Templates\NormalEmail.dotm
