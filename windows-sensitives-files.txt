@@ -1,6 +1,4 @@
-# Top 100 Sensitive Files on Windows
 
-# 1. Web Server Files
 C:\inetpub\logs\LogFiles
 C:\inetpub\wwwroot
 C:\inetpub\wwwroot\default.htm
@@ -10,15 +8,11 @@ C:\xampp\apache\conf\extra\httpd-vhosts.conf
 C:\xampp\apache\logs\access.log
 C:\xampp\apache\logs\php_error_log
 C:\xampp\phpMyAdmin\config.inc.php
-
-# 2. PHP Configuration Files
 C:\laragon\bin\php\php.ini
 C:\php\php.ini
 C:\wamp\bin\php\php.ini
 C:\xampp\php\php.ini
 C:\Windows\php.ini
-
-# 3. System and Registry Files
 C:\Windows\System32\config
 C:\Windows\System32\config\NTUSER.DAT
 C:\Windows\System32\drivers\etc\hosts
@@ -39,8 +33,6 @@ C:\Windows\System32\LogFiles\W3SVC1
 C:\Windows\System32\winevt\Logs
 C:\Windows\system.ini
 C:\Users\{username}\NTUSER.DAT
-
-# 4. FileZilla Configuration and Logs
 C:\Users\{username}\AppData\Local\FileZilla
 C:\Users\{username}\AppData\Local\FileZilla\cache.xml
 C:\Users\{username}\AppData\Roaming\FileZilla\filezilla-server.xml
@@ -48,16 +40,12 @@ C:\Users\{username}\AppData\Roaming\FileZilla\filezilla.xml
 C:\Users\{username}\AppData\Roaming\FileZilla\logs
 C:\Users\{username}\AppData\Roaming\FileZilla\recentservers.xml
 C:\Users\{username}\AppData\Roaming\FileZilla\sitemanager.xml
-
-# 5. Browser and Application Data
 C:\Users\{username}\AppData\Local\Google\Chrome\User Data\Default\Login Data
 C:\Users\{username}\AppData\Roaming\Microsoft\Outlook
 C:\Users\{username}\AppData\Roaming\Microsoft\Credentials
 C:\Users\{username}\AppData\Local\Programs\Microsoft VS Code\updater.log
 C:\Users\{username}\AppData\Roaming\Code\User\settings.json
 C:\Users\{username}\AppData\Roaming\Code\User\workspaceStorage
-
-# 6. Backup and Archive Files
 password.txt
 backup.sql
 backup.tar.gz
@@ -71,8 +59,6 @@ database.db
 mysql.dump
 postgres.dump
 db.sqlite
-
-# 7. Log and Debug Files
 debug.log
 access.log
 error.log
@@ -85,8 +71,6 @@ vbox.log
 vbox-prev.log
 windows-update.log
 windows-event-log.evtx
-
-# 8. Security and Authentication Files
 id_rsa
 id_rsa.pub
 id_ed25519
@@ -106,8 +90,6 @@ ssl-cert-snakeoil.pem
 keystore.jks
 user.p12
 user.pfx
-
-# 9. Network and VPN Configuration
 vpnconfig.dat
 client.ovpn
 server.ovpn
@@ -117,4 +99,3 @@ hostapd.conf
 dnsmasq.conf
 radiusd.conf
 wpa_supplicant.conf
-

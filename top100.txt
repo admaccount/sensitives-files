@@ -1,6 +1,3 @@
-# Top 100 Sensitive Files (Sorted by Frequency)
-
-# Most Frequent (Web-Related)
 .env
 .env.example
 .env.local
@@ -32,8 +29,6 @@ nginx.log
 httpd.conf
 apache.conf
 nginx.conf
-
-# Other Sensitive Files
 login.csv
 shadow
 passwd
@@ -68,8 +63,6 @@ ssl-cert-snakeoil.pem
 vmware.log
 vbox.log
 vbox-prev.log
-
-# VPN and Network Configuration Files
 ipsec.conf
 ipsec.secrets
 wpa_supplicant.conf
@@ -79,8 +72,6 @@ radiusd.conf
 vpnconfig.dat
 client.ovpn
 server.ovpn
-
-# Mobile and Keystore Files
 keystore.jks
 user.p12
 user.pfx
@@ -91,8 +82,6 @@ sessionstore.json
 webcache.db
 login_data.db
 places.sqlite
-
-# Password and Credential Backups
 passwords.csv
 login.xlsx
 passwords.docx
