@@ -60,6 +60,7 @@ express-config.js
 next.config.js
 nuxt.config.js
 gatsby-config.js
+app_dev.php
 
 # 🐳 Fichiers liés à Docker et à l'infrastructure
 Dockerfile
