@@ -30,6 +30,18 @@ httpd.conf
 server.xml
 web.xml
 applicationHost.config
+server.xml
+web.xml
+tomcat-users.xml
+context.xml
+catalina.properties
+logging.properties
+host-manager.xml
+manager.xml
+global.web.xml
+backup.server.xml
+backup.tomcat-users.xml
+pom.xml
 
 # 🌍 Fichiers de configuration des CMS
 wp-config-sample.php
@@ -116,4 +128,131 @@ website_backup.zip
 config_backup.zip
 mysql.dump
 postgres.dump
+
+# 🌐 Fichiers de configuration des CMS
+wp-config.php
+wp-config-sample.php
+joomla-config.php
+configuration.php
+drupal.settings.php
+sites/default/settings.php
+settings.local.php
+prestashop-settings.php
+settings.inc.php
+
+# ⚙️ Fichiers de configuration des frameworks PHP
+symfony.env
+symfony.lock
+symfony/config/packages/*.yaml
+laravel.env
+.env.laravel
+.env.testing
+cakephp.env
+config/app.php
+zend.config.php
+yii-config.php
+slim-config.php
+
+# 🌍 Fichiers de configuration des frameworks et applications JavaScript
+package.json
+package-lock.json
+yarn.lock
+webpack.config.js
+webpack.prod.config.js
+next.config.js
+nuxt.config.js
+gatsby-config.js
+tsconfig.json
+vite.config.js
+rollup.config.js
+babel.config.js
+gruntfile.js
+gulpfile.js
+angular.json
+react-app-env.d.ts
+jest.config.js
+karma.conf.js
+vue.config.js
+
+# 🔑 Autres fichiers potentiellement sensibles en JS
+.env.js
+secrets.js
+config.js
+auth.js
+firebase-config.js
+settings.js
+
+# 🕰️ Fichiers sensibles liés à d'anciennes technologies web
+
+# ASP (Active Server Pages)
+global.asa
+default.asp
+web.config
+
+# JSP (Java Server Pages)
+index.jsp
+login.jsp
+dbconfig.jsp
+web.xml
+
+# ColdFusion (Adobe)
+application.cfm
+application.cfc
+cfconfig.json
+
+# CGI (Common Gateway Interface)
+index.cgi
+login.cgi
+config.cgi
+db.cgi
+
+# Perl
+app.pl
+config.pl
+db.pl
+cgi-bin/*.pl
+
+# PHP Legacy
+config.inc
+config.local.inc
+db_config.php
+connect.inc
+
+# Ruby on Rails (Anciennes versions)
+database.yml
+secrets.yml
+config.ru
+
+# Classic ASP
+global.asa
+index.asp
+login.asp
+
+# Silverlight
+clientaccesspolicy.xml
+crossdomain.xml
+
+# 🌐 Fichiers sensibles liés aux technologies Microsoft (ASPX, ASP.NET)
+
+web.config
+machine.config
+app.config
+global.asax
+default.aspx
+index.aspx
+login.aspx
+register.aspx
+admin.aspx
+web.debug.config
+web.release.config
+packages.config
+appsettings.json
+connectionstrings.config
+startup.cs
+program.cs
+identityconfig.cs
+bundleconfig.cs
+views/web.config
+views/shared/_layout.cshtml
+views/shared/_loginpartial.cshtml
 
