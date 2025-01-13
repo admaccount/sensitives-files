@@ -1,0 +1,117 @@
+# 🌍 Liste de mots-clés pouvant indiquer des fichiers contenant des mots de passe ou identifiants
+
+# Anglais
+password
+passwords
+pass
+credential
+credentials
+login
+logins
+auth
+authentication
+secret
+secrets
+key
+keys
+token
+tokens
+
+# Français
+motdepasse
+motdepasses
+mot_de_passe
+mot_de_passes
+mdp
+identifiant
+identifiants
+authentification
+clé
+clés
+
+# Espagnol
+contraseña
+contraseñas
+clave
+claves
+identificador
+identificadores
+autenticación
+
+# Allemand
+passwort
+passwörter
+kennung
+kennungen
+authentifizierung
+schlüssel
+
+# Italien
+password
+passwords
+credenziale
+credenziali
+autenticazione
+chiave
+chiavi
+
+# Portugais
+senha
+senhas
+chave
+chaves
+credencial
+credenciais
+autenticação
+
+# Néerlandais
+wachtwoord
+wachtwoorden
+sleutel
+sleutels
+identiteit
+identiteiten
+authenticatie
+
+# Russe
+пароль
+пароли
+ключ
+ключи
+идентификатор
+идентификаторы
+аутентификация
+
+# Chinois (simplifié)
+密码
+密钥
+密匙
+身份验证
+
+# Japonais
+パスワード
+鍵
+クレデンシャル
+認証
+
+# Arabe
+كلمةالسر
+كلماتالسر
+مفتاح
+مفاتيح
+الاعتماد
+المعرف
+مصادقة
+
+# Autres mots pertinents (toutes langues)
+backup
+config
+configuration
+db_password
+admin_password
+root_password
+user_password
+ftp_password
+api_key
+api_secret
+
