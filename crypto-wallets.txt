@@ -1,0 +1,76 @@
+# 🔐 Liste des extensions de fichiers associées aux wallets crypto
+
+# Bitcoin Core (et dérivés)
+.wallet
+.dat
+
+# Electrum
+.dat
+.wallet
+
+# MyEtherWallet (MEW)
+.keystore
+.json
+
+# MetaMask
+.json
+
+# Exodus
+.exodus
+.wallet
+.seed
+
+# Trust Wallet
+.dat
+.json
+
+# Binance Wallet
+.json
+
+# Atomic Wallet
+.wallet
+.dat
+
+# Coinomi
+.wallet
+.dat
+
+# Jaxx Liberty
+.wallet
+.dat
+
+# Ledger (sauvegardes et exports)
+.json
+
+# Trezor
+.json
+
+# Guarda Wallet
+.wallet
+.json
+
+# Blockchain.com Wallet
+.json
+
+# Phantom Wallet (Solana)
+.json
+
+# Solflare Wallet (Solana)
+.key
+.json
+
+# Keplr Wallet (Cosmos SDK)
+.json
+
+# Rainbow Wallet
+.json
+
+# Other Common Formats
+.seed
+.mnemonic
+.recovery
+.keys
+.txt
+.xlsx
+.csv
+
