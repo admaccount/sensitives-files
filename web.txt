@@ -1,4 +1,3 @@
-# 🔐 Fichiers Web contenant des mots de passe et des secrets
 .env
 .env.local
 .env.production
@@ -20,8 +19,6 @@ secrets.yaml
 secrets.json
 auth.json
 auth.yaml
-
-# 🌐 Fichiers de configuration des serveurs web
 .htaccess
 nginx.conf
 nginx.conf.default
@@ -42,16 +39,12 @@ global.web.xml
 backup.server.xml
 backup.tomcat-users.xml
 pom.xml
-
-# 🌍 Fichiers de configuration des CMS
 wp-config-sample.php
 joomla-config.php
 config.inc.php
 drupal.settings.php
 prestashop-settings.php
 settings.inc.php
-
-# ⚙️ Fichiers de configuration des frameworks PHP, Node.js, et autres
 symfony.env
 laravel.env
 cakephp.env
@@ -61,23 +54,17 @@ next.config.js
 nuxt.config.js
 gatsby-config.js
 app_dev.php
-
-# 🐳 Fichiers liés à Docker et à l'infrastructure
 Dockerfile
 docker-compose.yml
 .dockerignore
 docker.env
 kubernetes.yaml
 helm-values.yaml
-
-# 🔑 Fichiers contenant des API tokens ou clés
 api_keys.env
 tokens.json
 api_tokens.txt
 private_tokens.json
 access_tokens.yaml
-
-# 🌎 Fichiers de connexion aux bases de données dans plusieurs langues
 database.php
 databases.php
 connect.php
@@ -92,8 +79,6 @@ settings.py
 config.py
 db.ini
 db.conf
-
-# 🗄️ Fichiers de backup ou de versions anciennes
 .env.bak
 .env.old
 .env.1
@@ -129,8 +114,6 @@ website_backup.zip
 config_backup.zip
 mysql.dump
 postgres.dump
-
-# 🌐 Fichiers de configuration des CMS
 wp-config.php
 wp-config-sample.php
 joomla-config.php
@@ -140,8 +123,6 @@ sites/default/settings.php
 settings.local.php
 prestashop-settings.php
 settings.inc.php
-
-# ⚙️ Fichiers de configuration des frameworks PHP
 symfony.env
 symfony.lock
 symfony/config/packages/*.yaml
@@ -153,8 +134,6 @@ config/app.php
 zend.config.php
 yii-config.php
 slim-config.php
-
-# 🌍 Fichiers de configuration des frameworks et applications JavaScript
 package.json
 package-lock.json
 yarn.lock
@@ -174,67 +153,42 @@ react-app-env.d.ts
 jest.config.js
 karma.conf.js
 vue.config.js
-
-# 🔑 Autres fichiers potentiellement sensibles en JS
 .env.js
 secrets.js
 config.js
 auth.js
 firebase-config.js
 settings.js
-
-# 🕰️ Fichiers sensibles liés à d'anciennes technologies web
-
-# ASP (Active Server Pages)
 global.asa
 default.asp
 web.config
-
-# JSP (Java Server Pages)
 index.jsp
 login.jsp
 dbconfig.jsp
 web.xml
-
-# ColdFusion (Adobe)
 application.cfm
 application.cfc
 cfconfig.json
-
-# CGI (Common Gateway Interface)
 index.cgi
 login.cgi
 config.cgi
 db.cgi
-
-# Perl
 app.pl
 config.pl
 db.pl
 cgi-bin/*.pl
-
-# PHP Legacy
 config.inc
 config.local.inc
 db_config.php
 connect.inc
-
-# Ruby on Rails (Anciennes versions)
 database.yml
 secrets.yml
 config.ru
-
-# Classic ASP
 global.asa
 index.asp
 login.asp
-
-# Silverlight
 clientaccesspolicy.xml
 crossdomain.xml
-
-# 🌐 Fichiers sensibles liés aux technologies Microsoft (ASPX, ASP.NET)
-
 web.config
 machine.config
 app.config
