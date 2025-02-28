@@ -1,0 +1,100 @@
+# Siemens (MindSphere, SIMATIC, PLC, Industrial IoT)
+~/.mindsphere/credentials.json           # Clés API et jetons d'authentification MindSphere
+mindsphere.env                           # Variables d'environnement pour l'accès MindSphere
+config.xml                               # Configuration PLC (SIMATIC, TIA Portal)
+s7-config.cfg                            # Configuration d'automate SIMATIC S7
+simatic_secrets.json                     # Clés d'accès API, SSH pour SIMATIC IOT
+
+# Schneider Electric (EcoStruxure IoT, Modicon PLC)
+~/.ecostruxure/credentials.json          # Informations d'authentification EcoStruxure
+ecostruxure.env                          # Variables d'environnement pour les solutions IoT
+plc-config.ini                           # Configuration d’automate Modicon
+scada-access.cfg                         # Identifiants pour SCADA (EcoStruxure)
+
+# Rockwell Automation (FactoryTalk, ControlLogix, IoT Gateway)
+~/.rockwell/factorytalk_cred.json        # Clés et identifiants pour FactoryTalk
+logix_config.xml                         # Configuration des automates ControlLogix
+iot_gateway_secrets.json                 # Secrets pour Rockwell IoT Gateway
+factorytalk.env                          # Variables d’environnement FactoryTalk
+
+# Bosch (Bosch IoT Suite)
+~/.bosch-iot/credentials.json            # Jetons API Bosch IoT Suite
+bosch-iot.env                            # Variables d’environnement Bosch IoT
+bosch_device_cert.pem                    # Certificats de l’appareil pour Bosch IoT Hub
+
+# Cisco IoT (IoT Operations Dashboard, Edge Intelligence)
+~/.cisco-iot/config.json                 # Clés et jetons Cisco IoT Edge
+cisco-iot-keys.yaml                      # Fichier YAML contenant les secrets pour IoT Gateway
+iot_edge_cert.pem                        # Certificat pour l’authentification Edge Intelligence
+
+# Huawei (Huawei OceanConnect IoT Platform)
+~/.huawei-iot/credentials.json           # Identifiants pour Huawei OceanConnect
+huawei_iot.env                           # Variables d’environnement pour OceanConnect
+iot_device_secrets.json                  # Clés et secrets d’appareils IoT Huawei
+
+# Siemens Industrial Edge (Edge Computing for IoT)
+~/.siemens/edge/config.yaml              # Configuration Siemens Industrial Edge
+edge_secrets.json                        # Secrets pour Siemens Industrial Edge
+
+# General Electric (GE Digital – Predix, SCADA IoT)
+~/.predix/config.json                    # Jetons d’accès Predix IoT
+predix.env                               # Variables d’environnement Predix IoT
+scada_system.ini                         # Configuration des automates SCADA GE
+
+# Honeywell (Honeywell Forge IoT)
+~/.honeywell/forge_credentials.json      # Jetons et secrets Honeywell Forge
+forge.env                                # Variables d'environnement Forge IoT
+
+# ABB (Ability IoT Platform)
+~/.abb/ability/credentials.json          # Jetons API ABB Ability
+abb_iot_secrets.yaml                     # Secrets pour l'authentification Ability IoT
+abb_config.env                           # Variables d’environnement Ability IoT
+
+# Yokogawa (Industrial IoT, SCADA)
+~/.yokogawa/iot_config.json              # Jetons d’accès IoT Yokogawa
+scada_access_keys.env                    # Clés d’accès SCADA
+plc_secrets.yaml                         # Secrets pour les automates Yokogawa
+
+# Mitsubishi Electric (Edgecross, e-F@ctory IoT)
+~/.mitsubishi/iot_credentials.json       # Identifiants pour Edgecross IoT
+plc_network.cfg                          # Configuration réseau des automates Mitsubishi
+
+# Intel IoT (Intel Edge Software Hub)
+~/.intel-iot/credentials.json            # Jetons pour Intel Edge IoT
+intel_iot.env                            # Variables d’environnement Intel IoT
+
+# Raspberry Pi (IoT Projects)
+/boot/config.txt                         # Configuration matérielle (GPIO, réseau IoT)
+/etc/mosquitto/mosquitto.conf            # Configuration MQTT (accès au broker)
+/etc/wpa_supplicant/wpa_supplicant.conf  # Informations d’accès Wi-Fi (SSID, mot de passe)
+
+# Arduino (Arduino IoT Cloud)
+~/.arduino/config.json                   # Jetons API Arduino IoT Cloud
+arduino_secrets.h                        # Secrets (SSID Wi-Fi, mots de passe)
+
+# MQTT (Message Queuing Telemetry Transport)
+mosquitto.conf                           # Configuration du broker MQTT
+mqtt_secrets.env                         # Variables d’environnement MQTT (user, password)
+mqtt_acl                                # Listes de contrôle d’accès MQTT
+
+# Modbus/TCP (Protocoles industriels)
+modbus.cfg                               # Configuration Modbus TCP
+modbus_secrets.env                       # Identifiants et secrets Modbus
+
+# OPC-UA (Open Platform Communications – Unified Architecture)
+opcua_config.yaml                        # Configuration des endpoints OPC-UA
+opcua_secrets.json                       # Jetons d’authentification pour OPC-UA
+
+# LoRaWAN (Long Range Wide Area Network – IoT)
+lorawan-keys.json                        # Clés d’activation pour LoRaWAN
+lorawan_gateway.conf                     # Configuration du passerelle LoRaWAN
+
+# Zigbee (IoT Domotique/Industrie)
+zigbee_config.yaml                       # Configuration Zigbee
+zigbee_keys.json                         # Clés réseau et secrets Zigbee
+
+# General IoT and Embedded Devices
+iot_config.json                          # Configurations générales IoT (API, clés)
+device_secrets.env                       # Variables d’environnement pour les appareils IoT
+certs/device_cert.pem                    # Certificats TLS pour l’authentification
+
