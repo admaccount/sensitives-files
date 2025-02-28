@@ -1,0 +1,148 @@
+# AWS (Amazon Web Services)
+~/.aws/credentials
+~/.aws/config
+terraform.tfstate
+config.json
+credentials.csv
+docker-credentials
+
+# Azure (Microsoft Azure)
+~/.azure/credentials
+~/.azure/config
+publishsettings
+azureProfile.json
+accessTokens.json
+servicePrincipal.json
+
+# GCP (Google Cloud Platform)
+~/.config/gcloud/credentials.db
+~/.config/gcloud/application_default_credentials.json
+gcp-key.json
+terraform.tfstate
+
+# OVHcloud
+~/.ovh.conf
+ovh.conf
+~/.openrc
+
+# Alibaba Cloud
+~/.alibabacloud/credentials
+~/.alibabacloud/config.json
+aliyun_access_key.txt
+terraform.tfstate
+
+# Oracle Cloud (OCI – Oracle Cloud Infrastructure)
+~/.oci/config
+~/.oci/oci_api_key.pem
+oci_api_key_public.pem
+terraform.tfstate
+
+# IBM Cloud
+~/.bluemix/config.json
+~/.bluemix/credentials
+ibm-credentials.env
+terraform.tfstate
+
+# DigitalOcean
+~/.doctl/config.yaml
+digitalocean.json
+terraform.tfstate
+
+# Linode
+~/.linode-cli
+linode-api-key.txt
+
+# Vultr
+~/.vultr.ini
+vultr-api-key.txt
+
+# Scaleway
+~/.config/scw/config.yaml
+scaleway.env
+
+# Hetzner Cloud
+~/.hcloud/cli.toml
+hcloud-token.txt
+
+# OpenStack (OVH Public Cloud, CityCloud, etc.)
+~/.openstack/openrc
+clouds.yaml
+openstack_api_key.txt
+
+# Proxmox (Virtual Environment)
+# (Attention : fichiers souvent en /etc/)
+/etc/pve/.members
+/root/.ssh/id_rsa
+/etc/pve/priv
+
+# K3s (Kubernetes léger)
+/etc/rancher/k3s/k3s.yaml
+
+# Cloudflare
+~/.cloudflare/api_token
+cloudflare.ini
+
+# Netlify
+~/.netlify/config.json
+
+# Heroku
+~/.netrc
+~/.heroku/credentials
+
+# Firebase (Google Cloud)
+firebase.json
+service-account.json
+
+# Yandex Cloud (Russie)
+~/.config/yandex/cloud/config.yaml
+~/.config/yandex/cloud/keys.json
+yandex-credentials.json
+
+# VK Cloud (anciennement Mail.ru Cloud Solutions)
+~/.vkcloud/config.json
+~/.mcs/config.json
+vkcloud-access.key
+vkcloud-secret.key
+
+# Selectel Cloud (Russie)
+~/.selectel/config.yaml
+selectel_credentials.json
+selectel-api-key.txt
+
+# ROSA (Russian OpenStack-based Cloud)
+~/.rosa/credentials
+rosa-openrc.sh
+rosa-clouds.yaml
+
+# MTS Cloud (Russie, basé sur OpenStack)
+~/.mtscloud/openrc.sh
+mtscloud.yaml
+
+# Docker & Kubernetes
+~/.docker/config.json
+~/.kube/config
+secrets.yml
+secrets.json
+
+# Terraform & Ansible
+terraform.tfvars
+~/.terraform.d/credentials.tfrc.json
+ansible.cfg
+vault_password_file
+
+# CI/CD (GitHub Actions, GitLab, Jenkins, etc.)
+.env
+.env.local
+.github/workflows/*.yml
+.gitlab-ci.yml
+config.xml
+
+# Fichiers Généraux Sensibles
+.ssh/id_rsa
+.ssh/id_ed25519
+.netrc
+.bash_history
+.zsh_history
+.vault_pass
+.htpasswd
+
